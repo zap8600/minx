@@ -6,6 +6,7 @@
 #include <sys/socket.h>
 #include <sys/un.h>
 #include <unistd.h>
+#include <poll.h>
 
 int32_t gi = 0;
 int32_t ngi() {
